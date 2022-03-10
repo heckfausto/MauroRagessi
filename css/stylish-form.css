@@ -1,0 +1,92 @@
+/* Global Styles */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(../img/nosotros-2.jpg) no-repeat scroll;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.logo-mauro2 {
+    width: 15%;
+    height: 15%;
+    margin-top: 2%;
+}
+
+form {
+    width: 70%;
+    height: 70%;
+    margin: auto;
+    background-color: rgba(0,0,0,0.8);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    border-radius: 15px;
+    font-family: Helvetica;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    margin-top: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+.contactos-form {
+    display: block;
+    text-align: center;
+    margin-top: -60px;
+}
+
+.logo-instagram,
+.logo-facebook,
+.logo-youtube {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 50px;
+}
+
+@media(max-width:768px) {
+
+    .contactos-form {
+      text-align: center;
+      font-size: 1em;
+      font-weight: 300;
+      margin-top: -80px;
+    }
+
+    .logo-mauro2 {
+        width: 15%;
+        height: 15%;
+        margin-bottom: 3%;
+        margin-bottom: -20px;
+    }
+
+    .logo-instagram,
+    .logo-facebook,
+    .logo-youtube {
+      width: 50px;
+      height: 50px;
+      margin-bottom: 10px;
+    }
+}
